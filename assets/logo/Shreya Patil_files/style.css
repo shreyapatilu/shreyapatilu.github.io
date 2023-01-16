@@ -57,7 +57,7 @@ a,a:hover,a:active,a:focus {
 h1,h2 {
 	margin: 0;
 	color:#dbdbdb;
-    font-size: 18px;
+    font-size: 16px;
 	font-family: 'Poppins', sans-serif;
 	text-transform: capitalize;
 }
@@ -343,11 +343,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #b4049d;}
 }
 .education-horizontal-timeline {
     padding: 80px 0;
-
+    color: #b2c1ce;
 }
 
 /*.education-horizontal-timeline*/
-.education-horizontal-timeline .col-sm-4 {padding:0 2px;}
+.education-horizontal-timeline .col-sm-4 {padding:0 2px;color: #b2c1ce}
 
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
@@ -359,23 +359,21 @@ nav.navbar.bootsnav .navbar-toggle i{color: #b4049d;}
     display:  flex;
     align-items: center;
     padding: 26px 0 30px;
-    color: #b4049d;
+    color: #b2c1ce;
 }
-
-/*..............dot became pink...................*/
 .timeline-horizontal-border i {
     font-size:  10px;
-    color: #b4049d;
+    color: #636a82;
     margin-right:  5px;
 }
 span.single-timeline-horizontal {
     display:  inline-block;
-    background: #b2c1ce;
+    background: rgb(32, 32, 32);
     height:  1px;
     width: 380px;
-    color: #b4049d;
+    color: #b2c1ce;
 }
-span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
+span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;color: #636a82;}
 /*.timeline-horizontal-border*/
 
 /*.education-horizontal-timeline*/
@@ -670,7 +668,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .isotope-overlay a {
     display: inline-block;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-weight: 500 ;
 }
@@ -753,12 +751,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /* contact-adress */
 .contact-add-head h3 {
     font-size:  24px;
-    color:  #999fb3;
+    color:  #3c4258;
 }
 .contact-add-head p {
     font-size:  16px;
     text-transform: capitalize;
-    color:  #999fb3;
+    color:  #636a82;
     font-weight:  300;
     margin-top:  6px;
 }
