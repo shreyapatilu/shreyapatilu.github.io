@@ -261,6 +261,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #b4049d;}
     line-height: 1.8;
 }
 .single-about-txt p {
+    margin-top: 12px;
     font-size: 16px;
     color: #999fb3;
     padding: 15px 0 23px;
@@ -268,15 +269,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #b4049d;}
 }
 .single-about-add-info {
     margin: 35px;
-
-    column-gap: 9px;
+    column-gap: 5px;
 }
 .single-about-add-info h3 {
     color: #d3d4d6;
     font-size: 17px;
     text-transform: capitalize;
 }
-.single-about-add-info p {font-weight:  400;font-size: 16px;border:  0;padding: 0;margin-top: 3px;}
+.single-about-add-info p {font-weight:  400;font-size: 16px;padding: 0;margin-top: 3px;}
 /*.single-about-txt*/
 
 /*.single-about-img */
@@ -398,6 +398,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .single-progress-txt {
     display: flex;
 }
+.single-about-txt p {
+    font-size: 16px;
+    color: #999fb3;
+    padding: 15px 0 23px;
+    border-bottom: 1px solid #999fb3;
+}
 .single-progress-txt h3 {
     width: 10%;
     color: #b4049d;
@@ -405,6 +411,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     top: 6px;
     left: 20px;
 }
+
 .barWrapper {
     font-weight: 400;
     font-size: 16px;
@@ -561,8 +568,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .profile-icon-name {
     text-transform: capitalize;
-    color: #636a82;
+    color: #d3d4d6;
     font-size: 16px;
+    align-content: center;
 }
 .single-profile.profile-no-border{border-right:transparent;}
 .profile-border {
@@ -603,7 +611,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transform:scale(1);
     top:0;
 }
-.single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
+.single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff; }
 .single-profile:hover .profile-border {border:transparent;}
 /*-------------------------------------
         9. Portfolio
