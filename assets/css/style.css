@@ -332,7 +332,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #b4049d;}
 /*.ab-list-icon */
 
 /*.single-about-img */
-
+.profile-image {
+    width: 600px;
+    height: auto;
+    max-width: 100%;
+  }
 /*-------------------------------------
         5.  Education
 --------------------------------------*/
